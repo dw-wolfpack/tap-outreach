@@ -1,0 +1,271 @@
+{
+  "additionalProperties": false,
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "addedAt": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "addressCity": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "addressCountry": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "addressState": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "callOptedOut": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "callsOptedAt": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "campaignName": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "clickCount": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "createdAt": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "emailOptedOut": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "emailsOptStatus": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "emailsOptedAt": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "engagedAt": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "engagedScore": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "eventName": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "externalSource": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "gender": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "occupation": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "openCount": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "optedOut": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "optedOutAt": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "replyCount": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "score": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "smsOptStatus": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "smsOptedAt": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "smsOptedOut": {
+      "type": [
+        "null",
+        "boolean"
+      ]
+    },
+    "source": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "tags": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "title": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "touchedAt": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "updatedAt": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "meta": {
+      "additionalProperties": true,
+      "type": "object",
+      "properties": {
+        "dataConnections": {
+          "type": [
+                "null",
+                "string"
+              ]
+        }
+      }
+    },
+    "relationships": {
+      "additionalProperties": true,
+      "type": "object",
+      "properties": {
+        "activeSequenceStates": {
+          "additionalProperties": true,
+          "type": "object",
+          "properties": {
+            "data": {
+              "additionalProperties": true,
+              "properties": {
+                "type": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "id": {
+                  "type": [
+                    "null",
+                    "integer"
+                  ]
+                }
+              }
+            }
+          }
+        },
+        "account": {
+          "additionalProperties": true,
+          "type": "object",
+          "properties": {
+            "data": {
+              "additionalProperties": true,
+              "properties": {
+                "type": {
+                  "type": [
+                    "null",
+                    "string"
+                  ]
+                },
+                "id": {
+                  "type": [
+                    "null",
+                    "integer"
+                  ]
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

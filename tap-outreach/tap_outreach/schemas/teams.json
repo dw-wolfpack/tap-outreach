@@ -1,0 +1,55 @@
+{
+  "additionalProperties": false,
+  "type": "object",
+  "properties": {
+    "id": {
+      "type": [
+        "null",
+        "integer"
+      ]
+    },
+    "color": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "name": {
+      "type": [
+        "null",
+        "string"
+      ]
+    },
+    "updatedAt": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "createdAt": {
+      "type": [
+        "null",
+        "string"
+      ],
+      "format": "date-time"
+    },
+    "relationships": {
+      "additionalProperties": true,
+      "type": "object",
+      "properties": {
+        "users": {
+          "additionalProperties": true,
+          "properties": {
+            "data": {
+              "type": [
+                "null",
+                "array"
+              ]
+            }
+          }
+        }
+      }
+    }
+  }
+}

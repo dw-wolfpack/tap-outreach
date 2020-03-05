@@ -1,0 +1,65 @@
+{
+    "additionalProperties": false,
+    "type": "object",
+    "properties": {
+      "bouncedAt": {
+        "type": [
+          "null",
+          "string"
+        ],
+      "format": "date-time"
+      },
+      "createdAt": {
+        "type": [
+          "null",
+          "string"
+        ],
+      "format": "date-time"
+      },
+      "email": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "email_type": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "order": {
+        "type": [
+          "null",
+          "integer"
+        ]
+      },
+      "status": {
+        "type": [
+          "null",
+          "string"
+        ]
+      },
+      "statusChangedAt": {
+        "type": [
+          "null",
+          "string"
+        ],
+      "format": "date-time"
+      },
+      "unsubscribedAt": {
+        "type": [
+          "null",
+          "string"
+        ],
+      "format": "date-time"
+      },
+      "updatedAt": {
+        "type": [
+          "null",
+          "string"
+        ],
+      "format": "date-time"
+      }
+    }
+  }
